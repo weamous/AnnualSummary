@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="appbar"/>
+    <item type="id" name="toolbar"/>
+    <item type="id" name="status_bar"/>
+    <item type="id" name="app_bar"/>
+    <item type="id" name="toolbar_layout"/>
+    <item type="id" name="layout_main"/>
+    <item type="id" name="layout_sub"/>
+    <item type="id" name="view_pager"/>
+    <item type="id" name="spinner"/>
+    <item type="id" name="list_view"/>
+    <item type="id" name="fab"/>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# parttime -l -h -a"/>
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="2016年最长的一份兼职时间为"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_display_style"
+            android:layout_marginEnd="0dp"
+            android:text="224"/>
+
+        <TextView
+            style="@style/text_title_style"
+            android:layout_marginStart="@dimen/text_horizontal_margin"
+            android:text="小时"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="工作是：兼职美工。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="其他兼职还有：文员，司机，外卖员。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="兼职收入0元。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="全国排行：1393645825。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="全年兼职时间：385小时。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="不务正业。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text=""/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="相比去年兼职时间多了159小时"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# _"/>
+
+</LinearLayout>

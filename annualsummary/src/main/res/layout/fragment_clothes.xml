@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# clothes -c -m -a"/>
+    <TextView
+        style="@style/text_title_style"
+        android:text="2016年买的最贵的一件衣服"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_display_style"
+            android:layout_marginEnd="0dp"
+            android:text="149"/>
+
+        <TextView
+            style="@style/text_title_style"
+            android:layout_marginStart="@dimen/text_horizontal_margin"
+            android:text="元"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="居然是一件女装外套，还好没人看出来。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="没想到原来你是这样的程序猿"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="全年买衣服共花费1368.88元"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="最喜欢的裤子：牛仔裤。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="一共买了7条裤子，其中有7条牛仔裤。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="最喜欢的上衣：T恤"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="一共买了12件上衣，其中有10件T恤。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text=""/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="相比去年买衣服多花了34.64元。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="要是能注意下自己的着装就好了。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# _"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# summary" />
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="" />
+
+    <TextView
+        style="@style/text_display_style"
+        android:text="不是程序员" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="全国程序员排名" />
+    <TextView
+        style="@style/text_display_style"
+        android:text="9485721" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="不加班怎么是一个合格的程序员。" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="请问程序员双休不加班都干嘛？" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="居然全年99%的时间准时下班！" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="请问程序员下班这么早回家干嘛？" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="只有在衣服上像是一个程序员。" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="Generate a report?(Y/N)" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="Y" />
+    <TextView
+        style="@style/text_base_style"
+        android:text="......" />
+
+
+</LinearLayout>

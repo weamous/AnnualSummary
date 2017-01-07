@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# teatime -h -l -a"/>
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="2016年下午茶时间共"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_display_style"
+            android:layout_marginEnd="0dp"
+            android:text="285"/>
+
+        <TextView
+            style="@style/text_title_style"
+            android:layout_marginStart="@dimen/text_horizontal_margin"
+            android:text="小时。"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="单次下午茶持续时间最长4小时。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="平均下午茶时间：1.272小时"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="喝掉了0.184吨水。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="喝最多的茶：菊花茶。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="吃最多的零食：EDO饼干。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="看来饭堂真的不行了。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text=""/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="去年并无下午茶记录"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# _"/>
+
+</LinearLayout>

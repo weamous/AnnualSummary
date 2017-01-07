@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# zhuangB -d -N -l"/>
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="2016年一天装逼次数最多"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_display_style"
+            android:layout_marginEnd="0dp"
+            android:text="695"/>
+
+        <TextView
+            style="@style/text_title_style"
+            android:layout_marginStart="@dimen/text_horizontal_margin"
+            android:text="次。"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="发生在2016年2月30日"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="称号：做梦都在装逼的男人"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="全年装逼次数：无法统计。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="这是一个BUG"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="平均每天装逼283.56次"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="不装逼会死星人"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text=""/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="去年装逼次数也无法统计。"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# _"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/title_loliclub" />
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]#"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# overtime -H -y -a"/>
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="2016年一共加班"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_display_style"
+            android:layout_marginEnd="0dp"
+            android:text="4"/>
+
+        <TextView
+            style="@style/text_title_style"
+            android:layout_marginStart="@dimen/text_horizontal_margin"
+            android:text="小时"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="最长的一次加班2小时"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="2016年4月20日，下班时间为20点整，加班2小时"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="这还是程序员吗？"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="加班的工作内容是：调试打印机。"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="从结果来看，加班并没有什么卵用"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="去年有进步，继续保持！"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text=""/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="相比前年多加班-268小时"/>
+    <TextView
+        style="@style/text_base_style"
+        android:text="前年真惨！"/>
+
+    <TextView
+        style="@style/text_base_style"
+        android:text="[root@LoliClub~]# _"/>
+
+</LinearLayout>

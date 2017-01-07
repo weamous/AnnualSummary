@@ -2,4 +2,43 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="view_horizontal_margin">8dp</dimen>
+    <dimen name="view_vertical_margin">8dp</dimen>
+    <dimen name="text_horizontal_margin">4dp</dimen>
+    <dimen name="text_vertical_margin">4dp</dimen>
+
+    <!--shadow-->
+    <dimen name="elevation_one">1.5dp</dimen>
+    <dimen name="elevation_two">3dp</dimen>
+    <dimen name="elevation_three">6dp</dimen>
+    <dimen name="elevation_four">9dp</dimen>
+    <dimen name="elevation_five">12dp</dimen>
+
+    <!-- text size -->
+    <dimen name="display4">112sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="title">24sp</dimen>
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="body2">14sp</dimen>
+    <dimen name="body1">14sp</dimen>
+    <dimen name="caption">12sp</dimen>
+    <dimen name="menu">14sp</dimen>
+    <dimen name="button">14sp</dimen>
+
+    <!--list-->
+    <dimen name="list_single_line">48dp</dimen>
+    <dimen name="list_single_line_with_icon">48dp</dimen>
+    <dimen name="list_single_line_with_img">56dp</dimen>
+    <dimen name="list_single_line_img">40dp</dimen>
+    <dimen name="list_single_line_icon">24dp</dimen>
+    <dimen name="list_single_line_frame">56dp</dimen>
+    <dimen name="list_single_line_text_only">36dp</dimen>
+    <dimen name="list_double_line">72dp</dimen>
+    <dimen name="list_three_line">96dp</dimen>
+    <dimen name="list_text_margin_left">72dp</dimen>
+    <dimen name="list_drawable_padding">32dp</dimen>
+
 </resources>
